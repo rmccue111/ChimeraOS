@@ -6,6 +6,6 @@ bash -c "cat xfce4.sh"
 bash -c "sh xfce4.sh -y"
 bash -c "/etc/init.d/xrdp start"
 bash -c "adduser --disabled-password --gecos '' toor"
-bash -c "apt-get install kali-linux-all -y"
+bash -c "apt-get install kali-linux-everything -y"
 TIMEOUT /T 777 /NOBREAK
 GOTO start
